@@ -2,9 +2,9 @@ from prometheus_client import make_wsgi_app, Gauge
 from wsgiref.simple_server import make_server
 import os, subprocess
 
-# This serivice name will put in grep command
-# Example : ps -ef | grep 'myprocess1'
-# Kindly Specify process name carefully.
+## This serivice name will put in grep command
+## Example : ps -ef | grep 'myprocess1'
+## Kindly Specify process name carefully.
 
 services = ['sshd', 'node_exporter']
 
